@@ -6,6 +6,8 @@
 -RM 553580 - Levi Yuki Utima 
 
 DESCRIÇÃO DO PROJETO PARA GLOBAL SOLUTION (COMPUTATIONAL THINKING USING PYTHON)
+<br>
+<br>
 
 A solução para o problema proposto na Global Solution é de levar ao paciente os cuidados com a saúde através de uma assistente.
 <br>
