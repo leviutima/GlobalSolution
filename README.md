@@ -2,6 +2,7 @@
 -RM 553791 - Jhonatan Sampaio Ferreira 
 <br>
 -RM 553169 - Vivian Sy Ting Wu
+<br>
 -RM 553580 - Levi Yuki Utima 
 
 DESCRIÇÃO DO PROJETO PARA GLOBAL SOLUTION (COMPUTATIONAL THINKING USING PYTHON)
