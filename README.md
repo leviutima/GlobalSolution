@@ -1,7 +1,7 @@
 # GlobalSolution
-RM 553791 - Jhonatan Sampaio Ferreira 
-RM 553169 - Vivian Sy Ting Wu
-RM 553580 - Levi Yuki Utima 
+-RM 553791 - Jhonatan Sampaio Ferreira 
+-RM 553169 - Vivian Sy Ting Wu
+-RM 553580 - Levi Yuki Utima 
 
 DESCRIÇÃO DO PROJETO PARA GLOBAL SOLUTION (COMPUTATIONAL THINKING USING PYTHON)
 
