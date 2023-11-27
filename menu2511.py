@@ -3,6 +3,15 @@ Objetivo:
 Desenvolver uma aplicação em Python que aborde uma solução ao tema proposto.
 '''
 
+# Função main
+def main():
+
+    # Chamada da função de repetição
+    repeticao(funcionalidades)
+
+    # Encerramento do programa
+    print("\nPrograma encerrado. Muito obrigado pelo interesse e pela visita!")
+
 # Função estrutura de repetição
 def repeticao(repeticao_desejada):
 
@@ -18,6 +27,12 @@ def repeticao(repeticao_desejada):
         # Input de repetição
         rpt = int(input("\nDeseja descobrir a respeito de outra funcionalidade? (1-SIM | 0-NÃO): "))
 
+        # Opção inválida
+        if rpt != 1 and rpt != 0:
+            while rpt != 1 and rpt != 0:
+                rpt = int(input("\nOpção Inválida! Escolha outra opção válida (1-SIM | 0-NÃO): "))
+
+
 # Função descrição das funcionalidades
 def funcionalidades():
     # Menu de códigos
@@ -28,6 +43,10 @@ def funcionalidades():
 
     # Input do código escolhido
     op = int(input("\nInsira o código equivalente a funcionalidade desejada: "))
+
+    # Código inválido
+    while op < 1 or op > 3:
+        op = int(input("\nOpção ínválida! Escolha outra opção válida: "))
 
     # Descrições
     match op:
@@ -54,3 +73,7 @@ def funcionalidades():
                   "\n\nTRATAMENTOS CONTÍNUOS"
                   "\nAo validar seu plano de saúde da Hapvida NotreDame \nIntermédica, a Raquel reconhece o tratamento que o usuário \npossui no banco de dados e retorna notificações para realizar \nseu tratamento de acordo com a recomendação médica recebida, \nque pode ser customizado dentro dos limites estabelecidos \npelo médico."
                   "\nEx.: Medicação antes de dormir apenas poderá ser customizada \npara notificar durante a noite.")
+
+# Programa main
+if __name__ == '__main__':
+    main()
